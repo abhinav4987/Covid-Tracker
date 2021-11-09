@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+}
+
+body {
+  background: rgb(245, 247, 247);
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__right {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+@media (max-width: 990px) {
+  .app{
+    flex-direction: column;
+  }
+}
+
+.app__title{
+  color: rgb(231, 80, 80)
+}

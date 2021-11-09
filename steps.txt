@@ -1,0 +1,11 @@
+1. create wireframe
+2. create-react-app
+3. cleanup the project
+4. structure of the website
+5. header
+6. info boxes
+7. table creation
+8. create a chart
+9. create a map
+10. styling
+11. deploy

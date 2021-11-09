@@ -1,0 +1,22 @@
+.table__main {
+    margin-top:20px;
+    overflow-y: scroll;
+    max-height: 680px;
+    background-color: #f0efef;
+    border-top : 0.2px solid rgb(175, 175, 175);
+    border-bottom :0.2px solid rgb(175, 175, 175); 
+}
+
+.table__main tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table__main td {
+    padding: 0.5rem;
+}
+.table__main tr:nth-of-type(odd) {
+    background-color: #ffffff;
+    margin: 0;
+}
+
